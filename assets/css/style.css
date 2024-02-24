@@ -418,7 +418,7 @@ h6 {
 
 #hero h1 {
   margin: 0;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 700;
   line-height: 72px;
   color: #124265;
@@ -429,7 +429,7 @@ h6 {
 #hero h2 {
   color: #5e5e5e;
   margin: 10px 0 0 0;
-  font-size: 37px;
+  font-size: 30px;
 }
 
 
@@ -1888,7 +1888,7 @@ section {
 }
 
 #footer .social-links a {
-  font-size: 18px;
+  font-size: 20px;
   display: inline-block;
   background: #2487ce;
   color: #fff;
