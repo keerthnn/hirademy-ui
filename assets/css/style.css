@@ -2146,3 +2146,81 @@ button {
     width: 100%; /* Full width on smaller screens */
   }
 }
+
+
+/* card css */
+#hero .cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+#hero .article-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: 10px;
+  padding: 20px;
+  flex-basis: 270px;
+  flex-grow: 1;
+  box-sizing: border-box;
+  height: 350px;
+}
+
+#hero .article-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 0 0 10px;
+}
+
+#hero .article-body h4 {
+  color: #124265;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#hero .article-body p {
+  font-size: 15px;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+#hero .text-center {
+  margin-top: auto;
+  width: 100%;
+}
+
+#hero .text-center button {
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+#hero .article-wrapper:hover {
+  transform: translateY(-5px);
+}
+
+#hero .article-wrapper:hover button {
+  background-color: #003580;
+}
+
+@media (max-width: 768px) {
+  #hero .cards-container {
+    flex-direction: column;
+  }
+
+  #hero .article-wrapper {
+    flex-basis: 100%;
+  }
+}
