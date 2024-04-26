@@ -2148,6 +2148,15 @@ button {
 }
 
 
+/* changing text */
+
+#typed-output {
+  display: inline-block;
+  min-width: 150px;
+  text-align: center;
+  color: #048540;
+}
+
 /* card css */
 #hero .cards-container {
   display: flex;
@@ -2159,34 +2168,64 @@ button {
 #hero .article-wrapper {
   display: flex;
   flex-direction: column;
-  background-color: #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.5);
   border-radius: 8px;
   margin: 10px;
   padding: 20px;
   flex-basis: 270px;
   flex-grow: 1;
   box-sizing: border-box;
-  height: 350px;
+  height: 450px;
+  width: 300px;
 }
 
-#hero .article-body {
+#hero .article-body1, .article-body2, .article-body3, .article-body4 {
   display: flex;
   flex-direction: column;
   flex: 1;
   padding: 0 0 10px;
 }
 
-#hero .article-body h4 {
-  color: #124265;
-  font-size: 20px;
+#hero .article-body1 h4 {
+  display: flex;
+  color: #ef5431;
+  /* font-size: 20px; */
   font-weight: bold;
   margin-bottom: 10px;
 }
 
-#hero .article-body p {
-  font-size: 15px;
-  color: #666;
+#hero .article-body2 h4 {
+  display: flex;
+  color: #1f5c88;
+  /* font-size: 20px; */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+#hero .article-body3 h4 {
+  display: flex;
+  color: #19b552;
+  /* font-size: 20px; */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#hero .article-body4 h4 {
+  display: flex;
+  color: #d92730;
+  /* font-size: 20px; */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#hero .article-body1 li,
+.article-body2 li,
+.article-body3 li,
+.article-body4 li {
+  font-size: 17px;
+  color: #080707;
   line-height: 1.6;
   margin-bottom: 10px;
 }
@@ -2204,11 +2243,19 @@ button {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
-  width: 100%;
+  width: 80%;
 }
 
 #hero .article-wrapper:hover {
-  transform: translateY(-5px);
+  /* transform: translateY(-15px); */
+  transform: scale(1.09);
+}
+
+#hero .article-body1,
+.article-body2,
+.article-body3,
+.article-body4:hover h2.title {
+  color: #2487ce;
 }
 
 #hero .article-wrapper:hover button {

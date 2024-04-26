@@ -336,10 +336,10 @@ getStartedButton.addEventListener('click', function() {
 
   
   /*get started button*/
-document.getElementById('getStartedButton').addEventListener('click', function () {
-  // Redirect to the Google Form URL after clicking the button
-  window.location.href = 'https://forms.gle/zcXM6YwiU4bwxmy1A';
-});
+// document.getElementById('getStartedButton').addEventListener('click', function () {
+//   // Redirect to the Google Form URL after clicking the button
+//   window.location.href = 'https://forms.gle/zcXM6YwiU4bwxmy1A';
+// });
 /*map*
 document.getElementById('getStartedButtonn').addEventListener('click', function() {
   // Replace the iframe source with the Google Map URL
@@ -354,7 +354,37 @@ document.getElementById('getStartedButtonn').addEventListener('click', function(
   document.body.innerHTML = '';
   document.body.appendChild(mapIframe);
 });*/
+
+// know more - student card
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  // Add click event listener to 'Know more' button
+  const knowMoreBtn = document.querySelector('.know-more-btn');
+  if (knowMoreBtn) {
+    knowMoreBtn.addEventListener('click', function () {
+      const targetSection = document.querySelector(this.getAttribute('data-href'));
+      if (targetSection) {
+        targetSection.scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  }
+});
+
+
+
+
 document.getElementById('getStartedButtonn').addEventListener('click', function () {
+  // Redirect to the Google Form URL after clicking the button
+  window.location.href = 'https://forms.gle/zcXM6YwiU4bwxmy1A';
+})
+
+document.getElementById('getStartedButtonn1').addEventListener('click', function () {
+  // Redirect to the Google Form URL after clicking the button
+  window.location.href = 'https://forms.gle/zcXM6YwiU4bwxmy1A';
+})
+
+document.getElementById('getStartedButtonn2').addEventListener('click', function () {
   // Redirect to the Google Form URL after clicking the button
   window.location.href = 'https://forms.gle/zcXM6YwiU4bwxmy1A';
 })

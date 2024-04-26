@@ -27,7 +27,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
+  <!-- ========= -->
 </head>
 
 <body>
@@ -43,7 +43,9 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#programs">Our Programs</a></li>
+          <li><a class="nav-link scrollto" href="#Internship">Internship</a></li>
+          <li><a class="nav-link scrollto" href="#Mentorship">Mentorship</a></li>
+          <!-- <li><a class="nav-link scrollto" href="">Job opening</a></li> -->
           <li><a class="nav-link scrollto" href="#products">Our Products</a></li>
           <!--<li><a class="nav-link scrollto o" href="#portfolio">Portfolio</a></li>-->
           <li><a class="nav-link scrollto" href="#about">About</a></li>
@@ -67,7 +69,7 @@
           </li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
           <!--<li><a class="getstarted scrollto" href="#about">Get Started</a></li>-->
-          <li><button   class="getstarted scrollto"   id="getStartedButtoon">Get Started</button></li>
+          <li><button class="getstarted scrollto" id="getStartedButtoon">Get Started</button></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -80,54 +82,59 @@
     <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
       <div class="row justify-content-center">
         <div class="col-xl-7 col-lg-9 text-center">
-          <h1>A tech learning and product development platform </h1>
+          <h1>Hirademy is a Platform for  <br> <span id="typed-output"></span> </h1>
           <!-- <h2>Shape your tech career journey by Participating in <br>our R & D projects</h2> -->
-          <h2>Hirademy For</h2>
-          
         </div>
       </div>
 
-      <!-- card for hirademy -->
+      <!-- cards for hirademy -->
 
       <div class="cards-container">
         <div class="article-wrapper">
-          <div class="article-body">
-            <h4>Students</h4>
-            <p> Learn technology, gain required work experience, become industry ready, get the dream job</p>
-            <p> Acess to Mentorship, Internship and Placement programs</p> <br>
+          <div class="article-body1">
+            <h4 class="title">Students/ <br> Fresher  </h4>
+            <li><b>Internship</b> via Screening</li>
+            <li><b>Mentorship</b> if interested</li>
+            <li>Interview preparation</li>
+            <li><b>Placements</b></li>
             <div class="text-center">
-              <button id="getStartedButtonn">Get Started</button>
+              <button class="know-more-btn" data-href="#Internship">Know more</button>
+            </div>
+
+          </div>
+        </div>
+        <div class="article-wrapper">
+          <div class="article-body2">
+            <h4 class="title">Startups/<br>Companies</h4>
+            <li><b>Hire</b> talented Interns and Full-time engineers</li>
+            <li><b>Access</b> to already screened candidates</li>
+            <li><b>Ready-to-work</b> engineers</li>
+            <li>Affordable pricing plans</li>
+            <div class="text-center">
+              <button id="bu2">Know more</button>
             </div>
           </div>
         </div>
         <div class="article-wrapper">
-          <div class="article-body">
-            <h4>Tech Founders/Entrepreneurs</h4>
-            <p> Get your MVP built for free here</p>
-            <p>Our talented interns can help you turn your idea into reality</p>
-            <p>Our mentorship is included for free</p>
+          <div class="article-body3">
+            <h4 class="title">Founders/<br>Entrepreneurs</h4>
+            <li>Get your <b>MVP</b>(product) and Launch your product</li>
+            <li>Tech <b>Mentorship</b> included</li>
+            <li>Affordable pricing plans</li>
             <div class="text-center">
-              <button id="getStartedButton2">Know more</button>
+              <button id="bu3">Know more</button>
             </div>
           </div>
         </div>
         <div class="article-wrapper">
-          <div class="article-body">
-            <h4>Recruiters</h4>
-            <p>Access to the pool of industry ready freshers, equivalent to experienced candidates</p>
-            <p>They know the technology, team-work, tool usage, personally developed and Ready-to-Work</p>
+          <div class="article-body4">
+            <h4 class="title">Engineering Colleges</h4>
+            <li>Add our programs to your <b>curriculum</b></li>
+            <li>Get your students <b>mentored</b> by industry experts</li>
+            <li>Access to Internship <b>Assignments</b></li>
+            <li>Placements at reputed companies</li>
             <div class="text-center">
-              <button id="getStartedButton3">Know more</button>
-            </div>
-          </div>
-        </div>
-        <div class="article-wrapper">
-          <div class="article-body">
-            <h4 >Mentorship</h4>
-            <p>Add our Mentorship program as part of your Curriculum</p>
-            <p>More engagement for your students - Mentorship + Internship</p>
-            <div class="text-center">
-              <button id="getStartedButton4">Get Started</button>
+              <button id="bu4">Know more</button>
             </div>
           </div>
         </div>
@@ -178,8 +185,8 @@
     </div>
   </section><!-- End Hero -->
 
-    <!-- ======= Counts Section ======= --
-    <section id="counts" class="counts section-bg">
+    <!-- ======= Counts Section ======= -->
+    <!-- <section id="counts" class="counts section-bg">
       <div class="container">
 
         <div class="row justify-content-end">
@@ -215,47 +222,12 @@
         </div>
 
       </div>
-    </section>
+    </section> -->
     <!-- End Counts Section -->
 
-    <!-- ======= About Video Section ======= -->
-    <section id="about-video" class="about-video">
-      <div class="container" data-aos="fade-up">
-        <div class="row">
-          <div class="col-lg-6 video-box align-self-baseline" data-aos="fade-right" data-aos-delay="100">
-            <img src="assets/img/technologies.jpg" class="img-fluid" alt="">
-            <!--<a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>-->
-          </div>
 
-          <div class="col-lg-6 pt-3 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
-            <h3>Our Technologies</h3>
-            <p class="fst-italic">
-              We are expert in the below technologies.
-              <br>
-              We innovate, research, design and develop our products based on them.
-            </p>
-            <br>
-            <ul>
-              <li><i class="bx bx-check-double"></i><b>Artificial Intelligence(AI) and Tools</b></li><br>
-              <li><i class="bx bx-check-double"></i><b>SaaS/Cloud Technologies</b></li>  <br>
-              <li><i class="bx bx-check-double"></i><b>Mobile and Web Development</b></li> <br> 
-              <li><i class="bx bx-check-double"></i><b>Blockchain and IoT</b></li><br> 
-              <li><i class="bx bx-check-double"></i><b>Cloud computing and Devops</b></li><br> 
-            </ul>
-            <!--<p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
-            </p>-->
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End About Video Section -->
-
-    <!-- ======= Clients Section ======= --
-    <section id="clients" class="clients section-bg">
+    <!-- ======= Clients Section ======= -->
+    <!-- <section id="clients" class="clients section-bg">
       <div class="container">
 
         <div class="row">
@@ -268,33 +240,35 @@
         </div>
 
       </div>
-    </section><!-- End Clients Section -->
+    </section> -->
+    <!-- End Clients Section -->
 
 
 
    <!--programs-->
-   <section id="programs" class="about">
+   <section id="Internship" class="about">
     <div class="container" data-aos="fade-up">
 
       <div class="section-title">
-        <h2>Our Programs</h2>
+        <h2>Internship program</h2>
         <p>  </p>
       </div>
         
       <div class="row content">
         <div class="col-lg-6">
-         <h2>Internship program</h2>
-         <h4>Features:</h4>
-          <ul>
-            <li><i class="ri-check-double-line"></i>Gain <b>Real-product</b> Work experience </li>
-            <li><i class="ri-check-double-line"></i>Product <b>Research & Development</b></li>
-            <li><i class="ri-check-double-line"></i>Learn Top-notch Technologies with <b>Practical Knowledge</b></li>
-            <li><i class="ri-check-double-line"></i>Team Collaboration in a real-work environment</li>
-            <li><i class="ri-check-double-line"></i>Network with Tech leaders and co-engineers</li>
-            <li><i class="ri-check-double-line"></i>Industry Tools usage</li>
-            <li><i class="ri-check-double-line"></i>Work Experience Letter & LoR</li>
-            <li><i class="ri-check-double-line"></i><b>Placements</b> offered at Hirademy</li>
-          </ul> 
+        <h4>Features:</h4>
+        <ul>
+          <li><i class="ri-check-double-line"></i>Gain <b>Real-product</b> Work experience </li>
+          <li><i class="ri-check-double-line"></i>Product <b>Research & Development</b></li>
+          <li><i class="ri-check-double-line"></i>Learn Top-notch Technologies with <b>Practical Knowledge</b></li>
+          <li><i class="ri-check-double-line"></i>Team Collaboration in a real-work environment</li>
+          <li><i class="ri-check-double-line"></i>Network with Tech leaders and co-engineers</li>
+          <li><i class="ri-check-double-line"></i>Industry Tools usage</li>
+          <li><i class="ri-check-double-line"></i>Work Experience Letter & LoR</li>
+          <li><i class="ri-check-double-line"></i><b>Placements</b> offered at Hirademy</li>
+        </ul>
+        </div>
+        <div class="col-lg-6 pt-3 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
           <h4>Eligibility:</h4>
           <ul>
             <li><i class="ri-check-double-line"></i>Education: B.Tech/M.Tech (CS/IT), MCA, equivalent degrees</li>
@@ -302,14 +276,24 @@
             <li><i class="ri-check-double-line"></i>Built at-least 1 relevant product/project</li>
             <li><i class="ri-check-double-line"></i>Should clear the <b>Screening Assignment/Interview</b> at Hirademy</li>
           </ul> 
-          <h4>Pricing: FREE</h4>
           <h4>Duration: 2-10 months</h4>
           <!--<a href="#" class="btn-learn-more">Learn More</a>-->
           <button id="getStartedButtonn">Get Started</button>
-          <p> </p>
-        </div>
-        
-        <div class="col-lg-6 pt-4 pt-lg-0">
+
+
+    </div>
+  </section>
+
+  <section id="Mentorship" class="about">
+    <div class="container" data-aos="fade-up">
+  
+      <div class="section-title">
+        <h2>Mentorship program</h2>
+        <p> </p>
+      </div>
+  
+      <div class="row content">
+        <div class="col-lg-6">
           <h2>Mentorship program</h2>
           <h4>Features:</h4>
           <ul>
@@ -323,44 +307,69 @@
             <li><i class="ri-check-double-line"></i>Guaranteed <b>Placements</b></li>
             <li><i class="ri-check-double-line"></i>Support for <b>1 year</b></li>
           </ul>
+        </div>
+        <div  class="col-lg-6 pt-4 pt-lg-0">
           <h4>Eligibility:</h4>
           <ul>
             <li><i class="ri-check-double-line"></i>Education: B.tech, M.tech, MCA or equivalent degree</li>
             <li><i class="ri-check-double-line"></i>Good in programming and computer fundamentals</li>
           </ul>
           <h4>Pricing: Contact Us</h4>
-          <h4>Duration: Flexible (1-3 months)</h4> 
-          <h5><b>Free Bonus</b>: Eligible for Internship without Screening process</h5> 
+          <h4>Duration: Flexible (1-3 months)</h4>
+          <h5><b>Free Bonus</b>: Eligible for Internship without Screening process</h5>
           <!--<a href="#" class="btn-learn-more">Learn More</a>-->
-          <button id="getStartedButtonn">Get Started</button>
+          <button id="getStartedButtonn1">Get Started</button>
+          </div>
+
         </div>
-        
-        
-        
+  
       </div>
-        <div class="section-title">
-          <p> </p>
+      <div class="section-title">
+        <p> </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= About Video Section ======= -->
+  <section id="about-video" class="about-video">
+    <div class="container" data-aos="fade-up">
+      <div class="row">
+        <div class="col-lg-6 video-box align-self-baseline" data-aos="fade-right" data-aos-delay="100">
+          <img src="assets/img/technologies.jpg" class="img-fluid"  alt=""  style="height: 550px;">
         </div>
-      <div class="row content">
-        <div class="col-lg-6">
-          <h3>Roles & Technologies:</h3>
-          <ul>
+  
+        <div class="col-lg-6 pt-3 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
+          <h3>Our Areas of Expertise:</h3>
+          <ul style="font-size: 15px;">
+            <li><i class="bx bx-check-double"></i>Artificial Intelligence(AI) and Tools</li>
+            <li><i class="bx bx-check-double"></i>SaaS/Cloud Technologies</li>
+            <li><i class="bx bx-check-double"></i>Mobile and Web Development</li>
+            <li><i class="bx bx-check-double"></i>Blockchain and IoT</li>
+            <li><i class="bx bx-check-double"></i>Cloud computing and Devops</li>
+          </ul>
+  
+          <h3>Technologies:</h3>
+          <ul style="font-size: 15px;">
             <li><i class="ri-check-double-line"></i>Roles: AI, Backend, Frontend, DevOps, Test Engineers</li>
-            <li><i class="ri-check-double-line"></i>Backend Stack: Python+Flask, Python+Django, Java+Springboot, Golang</li>
+            <li><i class="ri-check-double-line"></i>Backend Stack: Python+Flask, Python+Django, Java+Springboot, Golang
+            </li>
             <li><i class="ri-check-double-line"></i>Frontend Stack: React.js, Next.js</li>
             <li><i class="ri-check-double-line"></i>AI Tools: ChatGPT, Gemini, Bing AI</li>
-            <li><i class="ri-check-double-line"></i>Database/Queues: SQL/NoSql Databases, postgresql, MongoDB, Cassandra, Redis,
-              Kafka, RabbitMQ</li>
+            <li><i class="ri-check-double-line"></i>Database/Queues: SQL/NoSql Databases, postgresql, MongoDB,
+              Cassandra,Redis,Kafka, RabbitMQ</li>
             <li><i class="ri-check-double-line"></i>Cloud Tools: AWS, GCP, AZURE, Heroku, etc</li>
             <li><i class="ri-check-double-line"></i>Testing tools:, Junit, Locus, Postman, etc</li>
-            <li><i class="ri-check-double-line"></i>Other Tools: Jenkins, ArgoCD, Prometheus, Grafana, Github, Slack, Jira, etc
+            <li><i class="ri-check-double-line"></i>Other Tools: Jenkins, ArgoCD, Prometheus, Grafana, Github, Slack,
+              Jira,
+              etc
             </li>
           </ul>
         </div>
+  
       </div>
-
     </div>
   </section>
+  <!-- End About Video Section -->
   
   <!--- products-->
   <section id="products" class="services">
@@ -468,8 +477,8 @@
     </div>
   </section><!-- End Counts Section -->
 
-    <!-- ======= Services Section ======= --
-    <section id="services" class="services section-bg">
+    <!-- ======= Services Section ======= -->
+    <!-- <section id="services" class="services section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -559,7 +568,8 @@
         </div>
 
       </div>
-    </section><!-- End Sevices Section -->
+    </section> -->
+    <!-- End Sevices Section -->
 
     <!-- ======= Cta Section ======= -->
      <section id="cta" class="cta">
@@ -573,8 +583,8 @@
       </div>
      </section><!-- End Cta Section -->
 
-    <!-- ======= Portfolio Section ======= --
-    <section id="portfolio" class="portfolio">
+    <!-- ======= Portfolio Section ======= -->
+    <!-- <section id="portfolio" class="portfolio">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -614,10 +624,11 @@
         
 
       </div>
-    </section> <!--End Portfolio Section -->
+    </section>  -->
+    <!--End Portfolio Section -->
 
-    <!-- ======= Team Section ======= --
-    <section id="team" class="team section-bg">
+    <!-- ======= Team Section ======= -->
+    <!-- <section id="team" class="team section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -650,10 +661,11 @@
         </div>
 
       </div>
-    </section><!-- End Team Section -->
+    </section> -->
+    <!-- End Team Section -->
 
-    <!-- ======= Pricing Section ======= --
-    <section id="pricing" class="pricing">
+    <!-- ======= Pricing Section ======= -->
+    <!-- <section id="pricing" class="pricing">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -717,7 +729,8 @@
         </div>
 
       </div>
-    </section><!-- End Pricing Section -->
+    </section> -->
+    <!-- End Pricing Section -->
     <!--About Us  -->
     <section id="about" class="about">
       <div class="container" data-aos="fade-up">
@@ -741,9 +754,18 @@
              
             </ul>
           </div>
-          <div class="col-lg-6 pt-4 pt-lg-0">
+          <div class="col-lg-6 pt-4 pt-lg-0" style="text-align: justify;">
             <p>
-              Hirademy is a learning and product building company and we onboard Engineers to build innovative products. We hire students/freshers and make them strong engineers via our Mentorship and Internship Programs.
+            Hirademy is a learning and tech product building company and we onboard Interns/engineers to our build innovative
+            products. We hire students/freshers and make them strong engineers via our Mentorship and Internship Programs. We also
+            offer MVP building services to Founder/Entrepreneurs at affordable pricing plans. We help startups/companies to hire
+            talented engineers.
+            </p>
+            <p>Hirademy is a end-to-end platform where all things like Learning Tech, Building Product, Mentoring Engineers, Hiring
+            Talent, etc happen.
+            </p>
+            <p>
+              We are and excited to help millions of engineers.
             </p>
             <a href="#" class="btn-learn-more">Learn More</a>
           </div>
@@ -752,8 +774,8 @@
       </div>
     </section>
 
-    <!-- ======= Frequently Asked Questions Section ======= --
-    <section id="faq" class="faq ">
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <!-- <section id="faq" class="faq ">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -813,7 +835,8 @@
 
       </div> 
 
-    </section><!-- End Frequently Asked Questions Section -->
+    </section> -->
+    <!-- End Frequently Asked Questions Section -->
     
 
         <!-- ======= Testimonials Section ======= -->
@@ -918,7 +941,7 @@
               </div>
 
               <div class="phone">
-                <i class="bi bi-phone"></i>
+                <i class="bi bi-whatsapp"></i>
                 <h4>Whatsapp:</h4>
                 <p>+91-99643-23855</p>
               </div>
@@ -928,7 +951,7 @@
           </div>
           <div class="text-center">
             <!--<button id="getStartedButtonn">Get Started</button><br>     <br>-->
-            <button id="getStartedButtonn">Get Started</button>
+            <button id="getStartedButtonn2">Get Started</button>
             </div>
         </div>
 
@@ -960,7 +983,8 @@
         </div>
 
       </div>
-    </section><!-- End Contact Section -->
+    </section>
+    <!-- End Contact Section -->
 
    <!--</main><! End #main --
    <div class="text-center">
@@ -1017,10 +1041,11 @@ form--
             <h4>Useful Links</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Our programs</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Our products</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Contact</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#Internship">Internship</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#Mentorship">Mentorship</a></li>
+              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Job opening</a></li> -->
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#contact">Contact</a></li>
             </ul>
           </div>
           <div class="col-lg-4 col-md-6">
@@ -1084,9 +1109,27 @@ form--
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var typed = new Typed("#typed-output", {
+      strings: ["Tech learning", "Product development", "Hiring/Recruiting", "Mentoring"],
+      typeSpeed: 25,
+      backSpeed: 25,
+      backDelay: 2000,
+      loop: true,
+      showCursor: false,
+      // cursorChar: '|',
+      autoInsertCss: true,
+    });
+  });
+</script>
+
 
 </body>
 
